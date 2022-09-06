@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">dfsr_presentation</string>
+    <string name="clic_moi">Clic moi</string>
+    <string name="textview">TextView</string>
+    <string name="userEmail">TextView</string>
+    <string name="userPhone">TextView</string>
+    <string name="nom">Nom :</string>
+    <string name="labelEmail">"Email : "</string>
+    <string name="labelPhone">TextView</string>
+    <string name="labelWebsite">TextView</string>
+    <string name="labelAddress">TextView</string>
+    <string name="labelCompany">TextView</string>
+    <string name="userLabelEmail">TextView</string>
+</resources>
