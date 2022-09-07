@@ -21,62 +21,147 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#00477C"
             android:orientation="vertical"
             android:padding="10dp"
             android:visibility="visible">
 
             <TextView
+                android:id="@+id/labelName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#013457"
+                android:padding="5dp"
+                android:text="Nom : "
+                android:textColor="#FFFFFF" />
+
+            <TextView
                 android:id="@+id/itemUserName"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:background="#013457"
+                android:padding="5dp"
                 android:text="@string/textview"
+                android:textColor="#FFFFFF"
                 android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/labelEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#013457"
+                android:padding="5dp"
+                android:text="Email : "
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/itemUserEmail"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:background="#013457"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="@string/userEmail" />
+                android:padding="5dp"
+                android:text="@string/userEmail"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#013457"
+                android:padding="5dp"
+                android:text="Téléphone : "
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/itemUserPhone"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:background="#013457"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="@string/userPhone" />
+                android:padding="5dp"
+                android:text="@string/userPhone"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textViewWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#013457"
+                android:padding="5dp"
+                android:text="Site web : "
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/itemUserWebsite"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:background="#013457"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="@string/userPhone" />
+                android:padding="5dp"
+                android:text="@string/userPhone"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#013457"
+                android:padding="5dp"
+                android:text="Adresse : "
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/itemUserAddress"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:background="#013457"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="@string/userPhone" />
+                android:padding="5dp"
+                android:text="@string/userPhone"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textViewCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#013457"
+                android:padding="5dp"
+                android:text="Société : "
+                android:textColor="#FFFFFF" />
 
             <TextView
                 android:id="@+id/itemUserCompany"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
                 android:layout_weight="1"
+                android:background="#013457"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="@string/userPhone" />
+                android:padding="5dp"
+                android:text="@string/userPhone"
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
 

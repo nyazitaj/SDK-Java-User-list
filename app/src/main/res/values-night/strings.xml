@@ -8,4 +8,5 @@
     <string name="labelAddress">TextView</string>
     <string name="labelCompany">TextView</string>
     <string name="userLabelEmail">TextView</string>
+    <string name="textviewEmail">TextView</string>
 </resources>

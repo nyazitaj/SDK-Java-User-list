@@ -22,12 +22,12 @@ public class User {
 
         try {
             this.id = json.getInt("id");
-            this.name = "Nom : " +json.getString("name");
-            this.email = "Email : " + json.getString("email");
-            this.phone = "Téléphone : " + json.getString("phone");
-            this.website = "Site web : " + json.getString("website");
-            this.address = "Adresse : " + json.getJSONObject("address").getString("street") + ", " + json.getJSONObject("address").getString("zipcode") + " " + json.getJSONObject("address").getString("city");
-            this.company = "Société : " + json.getJSONObject("company").getString("name");
+            this.name = json.getString("name");
+            this.email = json.getString("email");
+            this.phone = json.getString("phone");
+            this.website = json.getString("website");
+            this.address = json.getJSONObject("address").getString("street") + ", " + json.getJSONObject("address").getString("zipcode") + " " + json.getJSONObject("address").getString("city");
+            this.company = json.getJSONObject("company").getString("name");
         } catch (JSONException e) {
             e.printStackTrace();
             this.id = 0;
